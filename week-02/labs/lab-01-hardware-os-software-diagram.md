@@ -1,8 +1,8 @@
-# Week 2 Lab 01 — Cybersecurity Landscape & Digital Infrastructure Overview
+# Week 2 Lab — Cybersecurity Landscape & Digital Infrastructure Overview
 
 **Student Name:** Victor Samuel
 
-**Date Completed:** 7/26/2026
+**Date Completed:** 7/29/2026
 
 **Module:** 1 — Digital Infrastructure & CLI | **Week:** 2  
 **Submission Path:** `week-02/labs/lab-01-hardware-os-software-diagram.md`
@@ -24,7 +24,9 @@ In this lab, you build a working mental model of the system you'll be securing t
 | Environment | Browser-based Lab Portal (Module 1 orientation) |
 | Required Materials | CyberFoundations City map; a diagram tool of your choice (hand-drawn and photographed, or any digital tool) |
 
-**Prerequisite:** Portfolio repo created from the CyberFoundations student template in Week 1. Fill out this worksheet here in the Lab Portal, then hit Submit to commit it directly to your repo at `week-02/labs/lab-01-hardware-os-software-diagram.md`.
+**Prerequisite:** Portfolio repo created from the CyberFoundations student template in Week 1. This file is already in your repo at `week-02/labs/lab-01-hardware-os-software-diagram.md`, ready to fill in.
+
+**New to the Lab Portal?** Watch this short walkthrough of how to find your Week 2 lab worksheet: [Accessing the Lab Worksheet — Step by Step](PASTE-VIDEO-LINK-HERE) *(~3 min)*.
 
 ---
 
@@ -34,7 +36,7 @@ The CyberFoundations City map is your visual guide to the next 11 weeks. Each di
 
 ### Step 1 — Open the Lab Portal Orientation Module
 
-From your Student Dashboard, open the **Module 1 orientation** module.
+Log into the Lab Portal with your Microsoft account. From your Student Dashboard, open the **Module 1 orientation** module.
 
 ### Step 2 — Complete the Orientation Walkthrough
 
@@ -44,16 +46,17 @@ Work through the orientation content. It covers the same hardware/OS/software ma
 
 Open the CyberFoundations City map (introduced in Week 1, Lesson 6). Identify which district corresponds to Module 1 — Digital Infrastructure & CLI.
 
-**District name:** Foundry District
+**District name:** Foundry district
 
 ```
-Foundry District
+Foundry district 
 ```
 
-**Why this district fits this week's topics (1–2 sentences):**
+**Why this district fits this week's topics (1–2 sentences):** The Foundry district
 
 ```
-This is the district where what is being protected lives in. This is everything that keeps the digital environment operational.
+The Foundry district paints a broader picture the digital infrastructure.
+This district fits into this week’s topics which are the cybersecurity landscape,what’s inside a computer and the OS at glance as it illustrates the various components and aspects of the digital infrastructure.
 ```
 
 ---
@@ -64,24 +67,24 @@ A computer is a stack of layers: physical hardware at the bottom, an operating s
 
 ### Step 1 — Identify the Layers
 
-Before drawing anything, name one example of what lives at each layer.
+Before drawing anything, list the three layers you'll diagram and one example of what lives at each layer.
 
-**Hardware layer — one example component (e.g., CPU, RAM, or storage):**
-
-```
-CPU
-```
-
-**Operating system layer — name an OS (e.g., Windows, Linux, or macOS):**
+**Hardware layer — one example component:** CPU
 
 ```
-Linux
+(e.g., CPU, RAM, storage — your choice)
 ```
 
-**Software layer — one example application (e.g., a web browser or word processor):**
+**Operating system layer — name an OS:** Windows
 
 ```
-Web Browser
+(e.g., Windows, Linux, macOS)
+```
+
+**Software layer — one example application:** Web browser
+
+```
+(e.g., a web browser, a word processor)
 ```
 
 ### Step 2 — Sketch Your Diagram
@@ -90,28 +93,31 @@ Sketch a simple diagram (hand-drawn and photographed, or built in any digital to
 
 ### Step 3 — Upload and Embed Your Diagram
 
-This step happens directly on GitHub, not through this worksheet — there's no upload field here, since screenshots and diagrams are added through GitHub's own upload UI, the same way as every other week.
+Upload your diagram image directly into your repo's assets folder — keep it there rather than pasting it loose into this file, so all of this week's images stay together and organized.
 
 1. Go to your portfolio repository on GitHub.com and navigate to `assets/screenshots/week-02/`.
-2. Click **Add file → Upload files**, then drag in your diagram image (name it something descriptive, like `hardware-os-software-diagram.png` — no spaces, lowercase, no timestamps).
-3. Commit the upload.
-4. Click on the uploaded image to open it, then click the **Raw** button. Copy the URL from your browser's address bar.
-5. After you submit this worksheet, it will be committed to your repo. Go back to GitHub, open the committed file, click the pencil (edit) icon, and paste your raw URL into the embed line below:
+2. Click **Add file → Upload files**, then drag in your diagram image, and give it a descriptive name (lowercase, hyphens, no spaces, no timestamps — e.g. `hardware-os-software-diagram.png`).
+3. Scroll down and click **Commit changes**.
+4. Click on the uploaded image's filename to open it — you'll see the image itself displayed on the page.
+5. Right-click directly on the image and choose **Copy image address** (Chrome/Edge) or **Copy Image Link** (Firefox).
+6. Come back to this file, open the pencil (edit) icon, and paste that link into the embed line below, in place of the placeholder:
 
 ```markdown
-![Hardware/OS/software diagram](paste your raw image URL here)
+![Hardware/OS/software diagram](paste your copied image link here)
 ```
 
-**My Diagram** (added directly on GitHub after you submit):
+**If right-click doesn't show that option:** click the small download-arrow icon in the top-right of the image preview instead, then copy the URL from your browser's address bar.
+
+**My Diagram:** Diagram of Hardware, OS and Software
 
 ### Step 4 — Explain Your Diagram
 
 In your own words — not a copied definition — explain how the three layers interact. Reference your own diagram directly.
 
-**Explanation (minimum 3 sentences):**
-
 ```
-The Operating system controls the Hardware, while the Software runs on the OS. The Software tells the OS what it wants to do and the OS makes the Hardware perform that operation.
+Software sends a request for a specific task.
+Operating system receives the request, translate and sends it to the hardware and 
+The Hardware is the physical device, it does the heavy lifting, it receives instructions / tasks to be performed from the OS 
 ```
 
 ---
@@ -125,7 +131,8 @@ Answer each question in your own words. These questions connect what you did in 
 If the operating system crashed on the computer you diagrammed, which layer(s) would stop working, and which (if any) would keep working? Explain your reasoning.
 
 ```
-if the OS crashed all the application / software will stop working however the Hardware will still keep working the reason is the physical hardware is static as long as it gets power and no component inside is faulty it will remain operational. 
+If the Operating system crashes this is a major problem because the OS is like the central nervous system of the computer. This means all the software and applications will stop functioning. In fact at this point the computer is completely useless because the screen will go black.
+However, the hardware will continue to receive power and you will still be able to see the indicator light on and still hear the fans working.
 ```
 
 ### Analysis Question 2
@@ -133,7 +140,7 @@ if the OS crashed all the application / software will stop working however the H
 Pick one piece of software you use daily. Trace it down through the OS to the hardware it ultimately depends on. What would happen to that software if the hardware layer failed?
 
 ```
-For example MS word or excel, if the hardware fails, everything that depends on it (OS, Software) fails.
+I think of this process as a chain from bottom (hardware), middle layer (OS) and upper layer (software) is the bottom layer falls off I.e crashes the entire system collapse. Picking Word Processor (software) it depends on the OS to get or transmit data and at this point the OS has crashed because of the hardware failure. So the physical layer loses connection with the internal layer or digital layer.
 ```
 
 ### Analysis Question 3
@@ -141,7 +148,7 @@ For example MS word or excel, if the hardware fails, everything that depends on 
 Explain, in your own words, why a cybersecurity professional needs to understand all three layers — hardware, OS, and software — rather than just the software layer where most visible attacks (like phishing emails) happen.
 
 ```
-Beyond the Software layer it is important for a cybersecurity professional to understand the OS and Hardware because it makes him/her a well rounded SME, it makes them know how computer works, and how to troubleshoot in case of an attack or failure you know where to go to fix it.
+It is important to understand all the three layers because we need to understand how the computer and its components interact and works. This will help cybersecurity professionals save time in troubleshooting during incident. It also helps to understand what components needs to be protected the most from bad actors and what type and level of protection is required. It helps professionals save time and cost during decision making, e.g the knowledge of each component like buying a device with faster CPU with up to date OS and running on an updated hardware will give better performance.
 ```
 
 ---
@@ -153,19 +160,19 @@ Answer each question in complete sentences.
 **1. What is the cybersecurity landscape, and why does it matter to someone starting this course?**
 
 ```
-The cybersecurity landscape comprises of the attacker trying to break in and steal data, Defender who finds the vulnerability and blocks the attacker, Everyday users who are subject of the attacker and the Infrastructure which is everything that keeps the digital environment operational we are talking about computers, server etc
+The cybersecurity landscape is the larger overview of the digital environment and the various elements that makes up that landscape. The attackers are the bad actors trying to break in steal and disrupt the landscape, defenders are the good guys preventing the attackers from achieving their goals by securing the landscape, infrastructure is the asset that needs to be protected and the everyday users are everyone using the infrastructure to perform one task or another. This matters because is the foundation on which everything depend upon regardless of whatever branch of the cybersecurity specialization everything depends on the understanding of the landscape and its components you want to secure and protect in your chosen specialty.
 ```
 
 **2. Which CyberFoundations City district did you identify in Part A, and how does its theme connect to the hardware/OS/software material in Part B?**
 
 ```
-Digital Infrastructure identified in Part A connects to the elements in Part B as they belong to the infrastructure aspect of the cybersecurity landscape.
+Foundry district from Part A directly connects with hardware, OS, Software in part B because they are part of the digital infrastructure.
 ```
 
 **3. Of the three layers (hardware, OS, software), which one do you think is hardest to secure, and why?**
 
 ```
-The OS is hardest to secure its at the intersection of everything and most vulnerable to attack
+I believe all three layers have their individual security challenges and difficulties to secure them. For example if the software fail’s software updates can fix the issue and same as OS and there are antivirus that can be used to prevent attackers however if a bad actor or a rouge employee touches the physical hardware and plugs in a malicious USB drive this can cause a catastrophic issue so in my opinion I’ll go with hardware.
 ```
 
 ---
@@ -178,7 +185,7 @@ The OS is hardest to secure its at the intersection of everything and most vulne
 
 - [x] Hardware, OS, and software layer examples listed
 
-- [x] Diagram uploaded to `assets/screenshots/week-02/` via GitHub and embedded directly in the committed file
+- [x] Diagram uploaded to `assets/screenshots/week-02/` and embedded using a copied image link (not pasted loose, not a local file path)
 
 - [x] Diagram explanation written in your own words (minimum 3 sentences)
 
@@ -186,6 +193,4 @@ The OS is hardest to secure its at the intersection of everything and most vulne
 
 - [x] All three Lab Report Questions answered in complete sentences
 
----
-
-*CyberVisionaries Institute · Cyber Foundations · Tier I*
+- [x] This file is committed to your portfolio repo at `week-02/labs/lab-01-hardware-os-software-diagram.md`
